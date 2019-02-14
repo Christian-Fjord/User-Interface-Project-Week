@@ -169,6 +169,11 @@ nav h4 {
   background-image: url(/img/home/home-jumbotron.png);
   background-repeat: repeat-x;
 }
+@media (max-width: 500px) {
+  .eyeCatch {
+    height: 400px;
+  }
+}
 .eyeCatch p {
   display: flex;
   align-items: center;
@@ -178,6 +183,11 @@ nav h4 {
   margin-left: 5%;
   margin-top: 5%;
 }
+@media (max-width: 500px) {
+  .eyeCatch p {
+    margin-top: 15%;
+  }
+}
 .block {
   display: flex;
   flex-direction: row;
@@ -185,10 +195,23 @@ nav h4 {
   margin: 0 12% 0 12%;
   margin-top: -2%;
 }
+@media (max-width: 500px) {
+  .block {
+    flex-direction: column-reverse;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 5%;
+  }
+}
 .block-2 {
   display: flex;
   justify-content: space-between;
   margin-top: 3%;
+}
+@media (max-width: 500px) {
+  .block-2 {
+    flex-direction: column;
+  }
 }
 .block h4 {
   font-size: 24px;
@@ -200,12 +223,28 @@ nav h4 {
 .block-msg-1 {
   width: 45%;
 }
+@media (max-width: 500px) {
+  .block-msg-1 {
+    width: 175%;
+    margin-left: 5%;
+  }
+}
 .block-msg-2 {
   width: 45%;
   margin-bottom: 10%;
 }
+@media (max-width: 500px) {
+  .block-msg-2 {
+    width: 175%;
+  }
+}
 .block-msg-1 p {
   margin-right: 2%;
+}
+@media (max-width: 500px) {
+  .block-msg-1 p {
+    width: 100%;
+  }
 }
 .block button {
   padding: 2%;
@@ -215,8 +254,18 @@ nav h4 {
   border: 1px solid black;
   background-color: white;
 }
+@media (max-width: 500px) {
+  .block button {
+    width: 105%;
+  }
+}
 .block-img {
   width: 33%;
+}
+@media (max-width: 500px) {
+  .block-img {
+    width: 100px;
+  }
 }
 .block-msg {
   display: flex;
@@ -244,10 +293,21 @@ nav h4 {
   font-size: 24px;
   margin-bottom: 5%;
 }
+@media (max-width: 500px) {
+  .rP {
+    align-self: center;
+  }
+}
 .imgName {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .sectionTwoImg {
+    width: 80%;
+    margin-left: 50px;
+  }
 }
 .pNames {
   display: flex;
@@ -257,14 +317,24 @@ nav h4 {
   margin: 0 12% 0 47%;
   margin-top: -2.5%;
   background-color: #d8d8d8;
-  border: 1px solid black;
   width: 295px;
   height: 90px;
+}
+@media (max-width: 500px) {
+  .pNames {
+    margin: -2.5% 12% 0 18%;
+  }
 }
 .centerText {
   display: flex;
   margin: 5% 33%;
   font-size: 20px;
+}
+@media (max-width: 500px) {
+  .centerText {
+    width: 90%;
+    margin-left: 30px;
+  }
 }
 footer {
   display: flex;
@@ -275,18 +345,34 @@ footer {
   color: white;
   background-color: #828282;
 }
+@media (max-width: 500px) {
+  footer {
+    height: 550px;
+    margin-top: 5%;
+  }
+}
 .allFooter {
   display: flex;
   justify-content: space-evenly;
   margin-top: 6%;
 }
+@media (max-width: 500px) {
+  .allFooter {
+    flex-direction: column;
+  }
+}
 footer ul {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  footer ul {
+    padding: 1%;
+  }
+}
 footer li {
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 .footHead {
   font-size: 20px;

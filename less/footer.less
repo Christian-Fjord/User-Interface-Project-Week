@@ -7,21 +7,35 @@ footer {
   height: 300px;
   color: white;
   background-color: #828282;
+
+  @media (max-width: 500px) {
+    height: 550px;
+    margin-top: 5%;
+  }
 }
 
 .allFooter {
   display: flex;
   justify-content: space-evenly;
   margin-top: 6%;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    
+  }
 }
 footer ul {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 500px) {
+    padding: 1%;
+  }
   
 }
 footer li {
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footHead {
