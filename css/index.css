@@ -261,6 +261,25 @@ nav h4 {
 .block-img {
   width: 33%;
 }
+@media (max-width: 500px) {
+  .block-img {
+    height: 500px;
+  }
+}
+.block-img-2 {
+  width: 33%;
+}
+@media (max-width: 500px) {
+  .block-img-2 {
+    height: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .block img {
+    height: 500px;
+    width: 540%;
+  }
+}
 .block-msg {
   display: flex;
   flex-direction: column;
