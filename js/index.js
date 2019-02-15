@@ -68,3 +68,12 @@ class TabItem {
 */
 
 links = document.querySelectorAll('.tabs-link').forEach(element => new TabLink(element));
+
+ // Nav
+ function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
