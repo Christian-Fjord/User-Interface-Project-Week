@@ -77,3 +77,10 @@ links = document.querySelectorAll('.tabs-link').forEach(element => new TabLink(e
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
+
+// Pop Up 
+
+function thePopUp() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
