@@ -7,9 +7,11 @@
 .eyeCatch {  
   display: flex;
   width: 100%;
-  height: 750px;
+  height: 500px;
   background-image: url(/img/home/home-jumbotron.png); 
-  background-repeat: repeat-x;
+  margin-botttom: 10%;
+  
+  background-size: cover;
 
   @media (max-width: 500px) {
     height: 400px;
@@ -35,7 +37,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 12% 0 12%;
-  margin-top: -2%;
+  margin-top: 5%;
 
   @media (max-width: 500px) {
       flex-direction: column-reverse;
@@ -104,6 +106,11 @@
   @media (max-width: 500px) {
     width: 100%;
   }
+}
+
+.block button:hover {
+  background-color: lightblue;
+  cursor: pointer;
 }
 
 .block-img {
