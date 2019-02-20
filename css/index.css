@@ -563,16 +563,35 @@ input {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .tabs .tabs-item .tabs-item-description {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+}
 .tabs .tabs-item .tabs-item-description p {
   margin: 5% 5% 5% 0;
   font-size: 16px;
   height: 200px;
   word-wrap: break-word;
 }
+@media (max-width: 500px) {
+  .tabs .tabs-item .tabs-item-description p {
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+}
 .tabs .tabs-item .servPic {
   margin-left: 5%;
   height: 200px;
   word-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .tabs .tabs-item .servPic {
+    margin-bottom: 10%;
+    height: 400px;
+    width: 100%;
+  }
 }
 .tabs .tabs-item-selected {
   display: block;
@@ -582,6 +601,12 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .tabs .tabs-links {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .tabs .tabs-links .tabs-link {
   padding: 0.5%;
@@ -596,6 +621,11 @@ input {
   border-left: 1px solid grey;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+  .tabs .tabs-links .tabs-link {
+    width: 100%;
+  }
+}
 .tabs .tabs-links .tabs-link:hover {
   background-color: lightblue;
   color: #FFFFFF;
@@ -605,6 +635,11 @@ input {
   border-right: 2px solid black;
   border-bottom: 2px solid grey;
   border-left: 2px solid grey;
+}
+@media (max-width: 500px) {
+  .tabs .tabs-links .tabs-link:hover {
+    width: 100%;
+  }
 }
 .tabs .tabs-links .tabs-link-selected {
   z-index: 2;
@@ -617,6 +652,11 @@ input {
   border-bottom: 2px solid grey;
   border-left: 2px solid grey;
 }
+@media (max-width: 500px) {
+  .tabs .tabs-links .tabs-link-selected {
+    width: 100%;
+  }
+}
 .picTextOne {
   font-size: 72px;
   color: white;
@@ -627,10 +667,34 @@ input {
   flex-direction: row;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .mainSectionContainer {
+    flex-direction: column;
+  }
+}
 .formSection {
+  display: flex;
+  flex-direction: column;
   margin: 0 12%;
   margin-top: 15%;
   width: 45%;
+}
+@media (max-width: 500px) {
+  .formSection {
+    width: 100%;
+  }
+}
+.contactButton {
+  margin-top: 5%;
+  width: 33%;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+@media (max-width: 500px) {
+  .contactButton {
+    width: 76%;
+  }
 }
 .formSection h4 {
   font-size: 24px;
@@ -656,6 +720,15 @@ input {
   margin-top: 15%;
   margin-right: 10%;
   font-size: 24px;
+}
+@media (max-width: 500px) {
+  .contactSection {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: -25%;
+  }
 }
 .contactSection h2 {
   font-weight: bold;
